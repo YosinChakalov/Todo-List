@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/Style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head">
+        <img src="./TODO.png" alt="" />
+        <img src="./add.png" alt="" class="add" />
+      </div>
+    </header>
+    <section class="section">
+      <div class="section_middle">
+        <ul>
+          <li>
+            <div class="circle_1"></div>
+            <h1>Work</h1>
+          </li>
+          <li>
+            <div class="circle_2"></div>
+            <h1>Study</h1>
+          </li>
+          <li>
+            <div class="circle_3"></div>
+            <h1>Entertainment</h1>
+          </li>
+          <li>
+            <div class="circle_4"></div>
+            <h1>Family</h1>
+          </li>
+          <li>
+            <input type="checkbox" name="" id="" class="hide" />
+            <span>Hide tasks</span>
+          </li>
+        </ul>
+        <div class="box"></div>
+      </div>
+      <dialog class="dialog_1">
+        <div class="dialog_1_head">
+          <h1>TASK</h1>
+          <h1 class="cancelbtn">X</h1>
+        </div>
+        <form class="form_1">
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" placeholder="Task name" />
+          <label for="desctiption">Description</label>
+          <textarea
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Task description"
+            class="description"
+            name="description"
+          ></textarea>
+          <button type="submit" class="savebtn">Save</button>
+          <button type="reset" class="Cancel_1">Cancel</button>
+        </form>
+      </dialog>
+
+      <dialog class="dialog_2">
+        <div class="dialog_2_head">
+          <h1>TASK</h1>
+          <h1 class="cancelbtn">X</h1>
+        </div>
+        <form class="form_2">
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" placeholder="Task name" />
+          <label for="des">Description  </label>
+          <textarea
+            id="des"
+            cols="30"
+            rows="10"
+            placeholder="Task description"
+            class="description"
+            name="description"
+          ></textarea>
+          <button type="submit" class="savebtn">Save</button>
+          <button type="reset" class="Cancel_2">Cancel</button>
+        </form>
+      </dialog>
+    </section>
+    <script type="module" src="./JS/main.js"></script>
+  </body>
+</html>

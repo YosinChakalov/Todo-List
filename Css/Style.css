@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+li {
+    font-size: 25px;
+    margin-top: 80px;
+    list-style: none;
+    display: flex;
+}
+ul {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.dialog_1 {
+    width: 40%;
+    margin: auto;
+}
+.dialog_1_head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.dialog_2 {
+    width: 40%;
+    margin: auto;
+}
+.dialog_2_head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.description {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.hide {
+    zoom: 2;
+}
+.cancelbtn {
+    margin-right: 10px;
+}
+.circle_1 {
+    width: 45px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.circle_2 {
+    width: 45px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.circle_3 {
+    width: 45px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.circle_4 {
+    width: 45px;
+    background-color: gold;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.savebtn {
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #2196F3;
+    border: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: white;
+}
+.Cancel_1 {
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.Cancel_2 {
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.section {
+    display: flex;
+}
+
+.div_1 {
+    height: 200px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    max-width: 350px;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.section_middle {
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+.line {
+    text-decoration: line-through;
+}
